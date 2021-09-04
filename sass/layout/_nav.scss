@@ -20,6 +20,15 @@
     }
   }
 
+  &__hamburger-menu {
+    display: none;
+    margin-left: auto;
+
+    @include phone-styles {
+      display: block;
+    }
+  }
+
   .btn {
     @include phone-styles {
       display: none;
