@@ -23,6 +23,7 @@
   &__hamburger-menu {
     display: none;
     margin-left: auto;
+    cursor: pointer;
 
     @include phone-styles {
       display: block;
