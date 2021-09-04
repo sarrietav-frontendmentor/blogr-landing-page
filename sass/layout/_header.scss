@@ -3,6 +3,7 @@
   text-align: center;
 
   padding: 3rem 8rem;
+  padding-bottom: 10rem;
 
   background-image: url('../assets/bg-pattern-intro.svg'),
     linear-gradient(
@@ -17,4 +18,14 @@
 
   border-bottom-left-radius: 5rem;
   border-bottom-right-radius: 5rem;
+
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 2.5rem;
+  }
 }
