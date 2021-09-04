@@ -14,9 +14,17 @@
     & > * {
       margin-right: 2rem;
     }
+
+    @include phone-styles {
+      display: none;
+    }
   }
 
   .btn {
+    @include phone-styles {
+      display: none;
+    }
+
     &--primary {
       padding: 0.7rem 2rem;
     }
