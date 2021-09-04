@@ -1,0 +1,9 @@
+.dropdown {
+  font-weight: 700;
+
+  &__title::after {
+    content: url("/assets/icon-arrow-light.svg");
+    display: inline-block;
+    margin-left: 1rem;
+  }
+}
