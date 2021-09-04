@@ -9,6 +9,11 @@
   &--primary {
     background-color: $white;
     color: $light-red;
+
+    &:hover {
+      background-color: $very-light-red;
+      color: $white;
+    }
   }
 
   &--secondary {
@@ -17,5 +22,10 @@
 
   &--outline {
     border: 1px solid $white;
+
+    &:hover {
+      background-color: $white;
+      color: $light-red;
+    }
   }
 }
