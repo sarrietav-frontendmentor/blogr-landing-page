@@ -1,0 +1,21 @@
+.btn {
+  background-color: transparent;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  border-radius: 2rem;
+
+  &--primary {
+    background-color: $white;
+    color: $light-red;
+  }
+
+  &--secondary {
+    color: $white;
+  }
+
+  &--outline {
+    border: 1px solid $white;
+  }
+}
