@@ -38,6 +38,10 @@
   &__subtitle {
     font-family: 'Overpass', sans-serif;
     margin-bottom: 2.5rem;
+
+    @include phone-styles {
+      font-size: 1.2rem;
+    }
   }
 
   // Add spacing between the buttons.
