@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+
+  &__logo {
+    margin-right: 3rem;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn--secondary {
+    margin-left: auto;
+  }
+}
