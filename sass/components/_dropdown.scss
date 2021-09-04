@@ -1,5 +1,6 @@
 .dropdown {
   font-weight: 700;
+  cursor: pointer;
 
   &__title::after {
     content: url('/assets/icon-arrow-light.svg');
