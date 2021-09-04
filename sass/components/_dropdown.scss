@@ -2,8 +2,16 @@
   font-weight: 700;
 
   &__title::after {
-    content: url("/assets/icon-arrow-light.svg");
+    content: url('/assets/icon-arrow-light.svg');
     display: inline-block;
     margin-left: 1rem;
+  }
+
+  &:hover &__title {
+    text-decoration: underline;
+  }
+
+  &:hover &__title::after {
+    transform: rotate(180deg) translateY(-0.2rem);
   }
 }
