@@ -11,12 +11,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-     & > * {
-       margin-right: 2rem;
-     }
+    & > * {
+      margin-right: 2rem;
+    }
   }
 
-  .btn--secondary {
-    margin-left: auto;
+  .btn {
+    &--primary {
+      padding: 0.7rem 2rem;
+    }
+
+    &--secondary {
+      margin-left: auto;
+    }
   }
 }
