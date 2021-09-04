@@ -3,6 +3,7 @@
   cursor: pointer;
 
   &__title::after {
+    transition: all 0.2s;
     content: url('/assets/icon-arrow-light.svg');
     display: inline-block;
     margin-left: 1rem;
