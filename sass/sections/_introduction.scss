@@ -30,7 +30,7 @@
   .section-flex {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: start;
+    justify-content: flex-start;
 
     .intro__image-wrapper {
       height: 15rem;
