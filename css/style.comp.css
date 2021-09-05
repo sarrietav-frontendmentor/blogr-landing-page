@@ -4,7 +4,8 @@
   box-sizing: inherit; }
 
 :root {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden; }
 
 body {
   font-family: 'Ubuntu', sans-serif; }
@@ -135,3 +136,33 @@ h6 {
     text-decoration: underline; }
   .dropdown:hover .dropdown__title::after {
     transform: rotate(180deg) translateY(-0.2rem); }
+
+.section-introduction {
+  color: #1f3f5b;
+  padding: 7rem 5rem; }
+  .section-introduction h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem; }
+  .section-introduction .intro__features {
+    padding-top: 6rem;
+    width: 50%; }
+    .section-introduction .intro__features h3 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem; }
+    .section-introduction .intro__features p {
+      font-weight: 400;
+      color: #4b5862; }
+      .section-introduction .intro__features p:not(:last-of-type) {
+        margin-bottom: 4rem; }
+  .section-introduction .section-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start; }
+    .section-introduction .section-flex .intro__image-wrapper {
+      height: 15rem;
+      position: relative; }
+    .section-introduction .section-flex .intro__image {
+      height: 200%;
+      float: right;
+      transform: scale(1.75) translateX(8rem); }
