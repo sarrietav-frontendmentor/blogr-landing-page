@@ -6,6 +6,7 @@ body {
 @for $i from 1 through 6 {
   h#{$i} {
     font-family: 'Overpass', sans-serif;
+    line-height: 1.3;
   }
 }
 
