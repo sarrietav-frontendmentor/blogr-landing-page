@@ -62,11 +62,18 @@
         <h2>Designed for the future</h2>
         <div class="section-flex">
           <div class="intro__image-wrapper">
-            <img
-              src="assets/illustration-editor-desktop.svg"
-              alt="Editor illustration"
-              class="intro__image"
-            />
+            <picture>
+              <source
+                srcset="assets/illustration-editor-mobile.svg"
+                media="(max-width: 480px)"
+                class="intro__image"
+              />
+              <img
+                src="assets/illustration-editor-desktop.svg"
+                alt="Editor illustration"
+                class="intro__image"
+              />
+            </picture>
           </div>
           <div class="intro__features">
             <h3>Introducing an extensible editor</h3>
