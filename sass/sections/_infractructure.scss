@@ -8,14 +8,21 @@
   color: $white;
   display: flex;
   align-items: center;
+  padding: 0 6rem;
 
   .section__image {
-    height: 20rem;
-    margin: 0 11rem;
+    height: 25rem;
+    margin: 0 7rem;
 
     img {
       height: 100%;
       transform: scale(1.5);
+    }
+  }
+
+  .section__features {
+    h2 {
+      margin-bottom: 3rem;
     }
   }
 }
