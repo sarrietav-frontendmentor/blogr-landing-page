@@ -1,9 +1,12 @@
 .section-infrastructure {
-  background-image: linear-gradient(
-    to right,
-    $gradient-very-dark-gray-blue,
-    $gradient-very-dark-desaturated-blue
-  );
+  background-image: url('/assets/bg-pattern-circles.svg'),
+    linear-gradient(
+      to right,
+      $gradient-very-dark-gray-blue,
+      $gradient-very-dark-desaturated-blue
+    );
+  background-repeat: no-repeat;
+  background-position: -80% 85%;
 
   color: $white;
   display: flex;
