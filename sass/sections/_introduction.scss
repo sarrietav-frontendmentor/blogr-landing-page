@@ -2,6 +2,11 @@
   color: $very-dark-blue;
   padding: 7rem 5rem;
 
+  @include phone-styles {
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+
   h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -11,6 +16,10 @@
   .intro__features {
     padding-top: 6rem;
     width: 50%;
+
+    @include phone-styles {
+      width: 100%;
+    }
 
     h3 {
       font-size: 2rem;
@@ -32,15 +41,30 @@
     flex-direction: row-reverse;
     justify-content: start;
 
+    @include phone-styles {
+      flex-direction: column;
+      justify-content: center;
+    }
+
     .intro__image-wrapper {
       height: 15rem;
       position: relative;
+
+      @include phone-styles {
+        height: 15rem;
+      }
     }
 
     .intro__image {
       height: 200%;
       float: right;
       transform: scale(1.75) translateX(8rem);
+
+      @include phone-styles {
+        height: 100%;
+        float: initial;
+        transform: scale(1.25) translate(0);
+      }
     }
   }
 }
