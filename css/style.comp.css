@@ -207,7 +207,8 @@ h3 {
   color: white;
   display: flex;
   align-items: center;
-  padding: 0 6rem; }
+  padding: 0 6rem;
+  margin-bottom: 13rem; }
   @media only screen and (max-width: 480px) {
     .section-infrastructure {
       background-position: -6rem -60%;
@@ -232,3 +233,26 @@ h3 {
           transform: scale(1.5) translateY(-2.5rem); } }
   .section-infrastructure .section__features h2 {
     margin-bottom: 3rem; }
+
+.section-laptop {
+  display: flex;
+  color: #1f3f5b;
+  padding: 0 7rem; }
+  .section-laptop .section__image {
+    height: 30rem; }
+    .section-laptop .section__image img {
+      height: 100%;
+      transform: scale(1.5) translateX(-9rem); }
+  .section-laptop .section__features {
+    padding-top: 4rem;
+    width: 50%; }
+    @media only screen and (max-width: 480px) {
+      .section-laptop .section__features {
+        width: 100%; } }
+    .section-laptop .section__features h3 {
+      margin-bottom: 1.5rem; }
+    .section-laptop .section__features p {
+      font-weight: 400;
+      color: #4b5862; }
+      .section-laptop .section__features p:not(:last-of-type) {
+        margin-bottom: 4rem; }
