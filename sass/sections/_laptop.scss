@@ -3,12 +3,31 @@
   color: $very-dark-blue;
   padding: 0 7rem;
 
+  @include phone-styles {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 2rem;
+    overflow-x: hidden;
+  }
+
   .section__image {
     height: 30rem;
 
+    @include phone-styles {
+      height: auto;
+      margin: 5rem 0;
+    }
+
     img {
-      height: 100%;
+      max-width: 100%;
+      height: auto;
       transform: scale(1.5) translateX(-9rem);
+
+      @include phone-styles {
+        transform: scale(1.7) translateX(0);
+      }
     }
   }
 
@@ -18,6 +37,7 @@
 
     @include phone-styles {
       width: 100%;
+      text-align: center;
     }
 
     h3 {
