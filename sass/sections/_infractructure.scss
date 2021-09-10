@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   padding: 0 6rem;
+  margin-bottom: 10rem;
 
   @include phone-styles {
     background-position: -6rem -60%;
