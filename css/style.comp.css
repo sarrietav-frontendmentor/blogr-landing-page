@@ -114,6 +114,55 @@ h3 {
   .nav .btn--secondary {
     margin-left: auto; }
 
+footer {
+  background-color: #25252d;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  padding: 5rem 12rem 2rem 4rem;
+  border-top-right-radius: 5rem; }
+  @media only screen and (max-width: 480px) {
+    footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 5rem; }
+      footer .col-logo {
+        margin-bottom: 4rem; } }
+  footer .col-1 {
+    display: flex;
+    flex-direction: column; }
+    @media only screen and (max-width: 480px) {
+      footer .col-1:not(:last-child) {
+        margin-bottom: 2.75rem; } }
+  footer .col-2 {
+    display: flex;
+    flex-direction: column; }
+    @media only screen and (max-width: 480px) {
+      footer .col-2:not(:last-child) {
+        margin-bottom: 2.75rem; } }
+  footer .col-3 {
+    display: flex;
+    flex-direction: column; }
+    @media only screen and (max-width: 480px) {
+      footer .col-3:not(:last-child) {
+        margin-bottom: 2.75rem; } }
+  footer h4 {
+    margin-bottom: 2rem; }
+    @media only screen and (max-width: 480px) {
+      footer h4 {
+        margin-bottom: 1.75rem; } }
+  footer a {
+    color: #c8c8cb;
+    margin-bottom: 0.5rem;
+    text-decoration: none; }
+    footer a:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+
 .btn {
   background-color: transparent;
   border: none;
@@ -238,13 +287,15 @@ h3 {
 .section-laptop {
   display: flex;
   color: #1f3f5b;
-  padding: 0 7rem; }
+  padding: 0 7rem;
+  margin-bottom: 12rem; }
   @media only screen and (max-width: 480px) {
     .section-laptop {
       flex-direction: column;
       justify-content: center;
       align-items: center;
       padding: 0 2rem;
+      margin-bottom: 7rem;
       overflow-x: hidden; } }
   .section-laptop .section__image {
     height: 30rem; }
