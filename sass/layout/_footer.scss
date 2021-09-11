@@ -22,9 +22,10 @@ footer {
     margin-bottom: 2rem;
   }
 
-  p {
+  a {
     color: $grayish-blue;
     margin-bottom: 0.5rem;
+    text-decoration: none;
 
     &:hover {
       cursor: pointer;
