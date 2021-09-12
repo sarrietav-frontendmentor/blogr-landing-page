@@ -137,5 +137,5 @@ dist
 
 style-guide/
 css/style.css.map
-css/style.css
+css/style.comp.css
 css/style.prefix.css
