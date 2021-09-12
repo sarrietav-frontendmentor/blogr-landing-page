@@ -1,6 +1,8 @@
 .dropdown {
   font-weight: 700;
   cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
 
   &__title::after {
     transition: all 0.2s;
@@ -15,5 +17,43 @@
 
   &:hover &__title::after {
     transform: rotate(180deg) translateY(-0.2rem);
+  }
+
+  &:hover &__content {
+    display: block;
+    visibility: visible;
+  }
+
+  &__content {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    width: 10rem;
+
+    padding: 1.5rem 1.25rem;
+
+    background-color: $white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+
+    text-align: left;
+    font-weight: normal;
+
+    &:hover {
+      display: block;
+      visibility: visible;
+    }
+
+    a:link,
+    a:visited {
+      color: $gradient-very-dark-gray-blue;
+      text-decoration: none;
+
+      display: block;
+    }
+
+    a:hover {
+      font-weight: 700;
+    }
   }
 }
