@@ -56,6 +56,7 @@
         <img
           src="assets/icon-hamburger.svg"
           alt="Hamburger Icon"
+          id="menu-icon"
           class="nav__hamburger-menu"
         />
       </nav>
@@ -182,6 +183,19 @@
         <a href="#">Linkedin</a>
       </div>
     </footer>
-    <div class="mobile-menu mobile-menu--hidden"></div>
+    <div id="mobile-menu" class="mobile-menu mobile-menu--hidden">abcde</div>
+
+    <script>
+      const menu = document.getElementById('mobile-menu');
+      const menuIcon = document.getElementById('menu-icon');
+
+      menuIcon.addEventListener('click', () => {
+        if (menu.classList.contains('mobile-menu--hidden')) {
+          menu.classList.remove('mobile-menu--hidden');
+        } else {
+          menu.classList.add('mobile-menu--hidden');
+        }
+      });
+    </script>
   </body>
 </html>
